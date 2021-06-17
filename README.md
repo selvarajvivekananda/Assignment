@@ -7,4 +7,6 @@ USER_NAME = BOSS
 PASSWORD = BOSS
 API_KEY = abcd
 
-command npm run devStart to start the server
+Generate token using /gettoken and use it across other api calls
+
+command npm run devStart to start the server and use the apis

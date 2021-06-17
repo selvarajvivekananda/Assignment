@@ -9,7 +9,7 @@ Content-Type: application/json
 
 ###
 POST http://localhost:3000/login
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Authorization: Bearer "REPLACE WITH TOKEN"
 Content-Type: application/json
 
 {
@@ -19,11 +19,11 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3000/getTodo
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Authorization: Bearer "REPLACE WITH TOKEN"
 
 ###
 POST http://localhost:3000/addTodo
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Authorization: Bearer "REPLACE WITH TOKEN"
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 
 ###
 PUT http://localhost:3000/updateTodo
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Authorization: Bearer "REPLACE WITH TOKEN"
 Content-Type: application/json
 
 {
@@ -43,7 +43,7 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3000/deleteTodo
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Authorization: Bearer "REPLACE WITH TOKEN"
 Content-Type: application/json
 
 {
