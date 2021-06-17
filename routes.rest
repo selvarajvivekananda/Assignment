@@ -1,0 +1,52 @@
+
+POST http://localhost:3000/gettoken
+Content-Type: application/json
+
+{
+    "user_name" : "BOSS",
+    "password" : "BOSS"
+}
+
+###
+POST http://localhost:3000/login
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Content-Type: application/json
+
+{
+    "user_name" : "BOSS",
+    "password" : "BOSS"
+}
+
+###
+GET http://localhost:3000/getTodo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+
+###
+POST http://localhost:3000/addTodo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Content-Type: application/json
+
+{
+    "task" : "TASK 9",
+    "done" : false
+}
+
+###
+PUT http://localhost:3000/updateTodo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Content-Type: application/json
+
+{
+    "task" : "TASK 1",
+    "done" : false
+}
+
+###
+DELETE http://localhost:3000/deleteTodo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJCT1NTIiwicGFzc3dvcmQiOiJCT1NTIiwiaWF0IjoxNjIzOTEzNTE1fQ.hEvWpssvHHRuetUYy6rsf18IMw9R1-Cn_eHw_MWE2iI
+Content-Type: application/json
+
+{
+    "task" : "TASK 1",
+    "done" : true
+}
